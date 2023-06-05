@@ -78,10 +78,12 @@
             
           </p>
 
-          <form action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-            <input type="text" class="form-control" placeholder="Enter your message  ">
+          <form id="form_predict" action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
+            <input id="msg" type="text" class="form-control" placeholder="Enter your message  ">
             <button type="submit" class="btn btn-primary">Predict</button>
           </form>
+
+          <p style="color:white;font-size: 25px;" id="result"></p>
 
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
 
@@ -488,6 +490,7 @@ Repeated offences will result in longer periods of being blocked. If you keep wr
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="predict.js"></script>
 
 </body>
 
